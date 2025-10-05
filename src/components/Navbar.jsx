@@ -34,17 +34,45 @@ const Navbar = () => {
           <ul className="navbar-nav  gap-4">
 
             <li className="nav-item ">
-              <NavLink className="nav-link" to="/">Accueil</NavLink>
+              <NavLink className="nav-link" to="/Acceuil">Accueil</NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/About">Préfecture</NavLink>
+            </li>
+             <li className="nav-item dropdown">
+              <button
+                className="nav-link dropdown-toggle btn btn-link"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Programmes
+              </button>
+              <ul className="dropdown-menu">
+                <li><NavLink className="dropdown-item" to="/prog1">Link 1</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/prog2">Link 2</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/prog3">Link 3</NavLink></li>
+              </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <button
+                className="nav-link dropdown-toggle btn btn-link"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Gouvernance
+              </button>
+              <ul className="dropdown-menu">
+                <li><NavLink className="dropdown-item" to="/gov1">Link 1</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/gov2">Link 2</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/gov3">Link 3</NavLink></li>
+              </ul>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/platforme">Plateforme des Jeunes</NavLink>
+              <NavLink className="nav-link" to="https://www.pj-indh-tiznit.com">Plateforme des Jeunes</NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/hsdg">Accueil</NavLink>
-            </li>
-
-          
             <li className="nav-item dropdown">
               <button
                 className="nav-link dropdown-toggle btn btn-link"
@@ -76,21 +104,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li className="nav-item dropdown">
-              <button
-                className="nav-link dropdown-toggle btn btn-link"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Gouvernance
-              </button>
-              <ul className="dropdown-menu">
-                <li><NavLink className="dropdown-item" to="/gov1">Link 1</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/gov2">Link 2</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/gov3">Link 3</NavLink></li>
-              </ul>
-            </li>
+            
 
           </ul>
         </div>

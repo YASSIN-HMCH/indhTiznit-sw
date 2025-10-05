@@ -1,10 +1,9 @@
 
-import Navbar from '../components/Navbar'
-
 const About = () => {
   return (
-    <div>
-        jhwsiwowo2
+    <div className="text-center mt-5">
+      <h1>Nos About</h1>
+      <p>Ici vous trouverez la liste des programmes.</p>
     </div>
   )
 }
