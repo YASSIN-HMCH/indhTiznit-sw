@@ -1,4 +1,13 @@
-footer a:hover {
-  color: #0d6efd; /* Bootstrap blue */
+/* footer a:hover {
+  color: #fd0d0d; 
   transition: color 0.3s ease;
+} */
+ 
+.lien{
+    margin-bottom: 5px;
+    color: rgb(22, 90, 38);
+}
+.lien:hover{
+    font-weight: bold;
+    
 }

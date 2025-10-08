@@ -3,7 +3,10 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Acceuil from './pages/Acceuil';
 import Contact from './pages/Contact';
+import Presentation from './pages/Presentation';
+import Organigramme from './pages/Organigramme';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Acceuil" element={<Acceuil />} />
+        <Route path="/Presentation" element={<Presentation />} />
+        <Route path="/Organigramme" element={<Organigramme />} />
+
       </Routes>
 
       <Footer/>
