@@ -33,7 +33,7 @@ const Navbar = () => {
           <ul className="navbar-nav  gap-4">
 
             <li className="nav-item ">
-              <NavLink className="nav-link" to="/Acceuil">Accueil</NavLink>
+              <NavLink className="nav-link" to="/">Accueil</NavLink>
             </li>
             <li className="nav-item dropdown">
               <button
