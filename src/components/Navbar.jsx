@@ -62,7 +62,7 @@ const Navbar = () => {
                 <li><NavLink className="dropdown-item" to="/prog1"> Programme 1</NavLink></li>
                 <li><NavLink className="dropdown-item" to="/prog2"> Programme 2</NavLink></li>
                 <li><NavLink className="dropdown-item" to="/prog3"> Programme 3</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/prog3"> Programme 4</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/prog4"> Programme 4</NavLink></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
