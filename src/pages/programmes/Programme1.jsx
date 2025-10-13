@@ -1,5 +1,6 @@
 import React from 'react'
 import './Progr1.css';
+import inter from "../../photos/intervention.png"
 
 const programme1 = () => {
   return (
@@ -102,24 +103,51 @@ sociaux de base dans les quartiers et centres ruraux sous-équipés : </span> </
   </div>
 
 
-  <div class="card shadow-sm mb-5 border-0">
-    <div class="card-body">
-      <h3 class="text-success fw-bold">2. Indicateurs de Résultats et de Performance</h3>
+   <div className="card shadow-sm mb-5 border-0">
+      <div className="card-body">
+        <div className="row align-items-center">
+          <div className="col-lg-7 col-md-7 col-12">
+            <h3 className="text-success fw-bold">
+              2. Indicateurs de Résultats et de Performance
+            </h3>
 
-      <h5 class="fw-bold text-danger mt-3">Infrastructures de base</h5>
-      <ul>
-        <li><strong>Eau potable :</strong> Pourcentage des ménages ayant accès à une source d’eau potable et raccordés au réseau.</li>
-        <li><strong>Électricité :</strong> Pourcentage des ménages raccordés au réseau électrique.</li>
-        <li><strong>Réseau routier :</strong> Pourcentage des ménages ayant accès à une route à moins de 1 km.</li>
-      </ul>
+            <h5 className="fw-bold text-danger mt-3">Infrastructures de base</h5>
+            <ul>
+              <li>
+                <strong>Eau potable :</strong> Pourcentage des ménages ayant accès à
+                une source d’eau potable et raccordés au réseau.
+              </li>
+              <li>
+                <strong>Électricité :</strong> Pourcentage des ménages raccordés au
+                réseau électrique.
+              </li>
+              <li>
+                <strong>Réseau routier :</strong> Pourcentage des ménages ayant accès
+                à une route à moins de 1 km.
+              </li>
+            </ul>
 
-      <h5 class="fw-bold text-danger mt-3">Services sociaux de base</h5>
-      <ul>
-        <li><strong>Santé :</strong> Pourcentage de la population bénéficiaire.</li>
-        <li><strong>Éducation :</strong> Pourcentage de la population bénéficiaire.</li>
-      </ul>
+            <h5 className="fw-bold text-danger mt-3">Services sociaux de base</h5>
+            <ul>
+              <li>
+                <strong>Santé :</strong> Pourcentage de la population bénéficiaire.
+              </li>
+              <li>
+                <strong>Éducation :</strong> Pourcentage de la population bénéficiaire.
+              </li>
+            </ul>
+          </div>
+          <div className="col-lg-5 col-md-5 col-12 text-center mt-4 mt-md-0">
+            <img
+              src={inter}
+              alt="Indicateurs de performance"
+              className="img-fluid rounded shadow-sm bg-light"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   
 </section>
     </>

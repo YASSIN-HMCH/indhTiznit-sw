@@ -1,4 +1,8 @@
 import React from 'react'
+import { SlPencil } from "react-icons/sl";
+import assi from "../../photos/assi.png";
+  
+
 
 const programme2 = () => {
   return (
@@ -13,15 +17,15 @@ const programme2 = () => {
       <h3 class="text-success fw-bold">I. Contexte</h3>
       <p>
        La lutte contre la précarité constitue une composante importante de l’INDH. Elle traduit 
-la volonté de <strong> SM Le Roi Mohammed VI que Dieu l’Assiste</strong>, d’instaurer un cadre de 
-vie préservant la dignité humaine des personnes en situation de précarité et d’apporter 
-un appui et un accompagnement pour leur insertion socio-économique. 
+      la volonté de <strong> SM Le Roi Mohammed VI que Dieu l’Assiste</strong>, d’instaurer un cadre de 
+      vie préservant la dignité humaine des personnes en situation de précarité et d’apporter 
+      un appui et un accompagnement pour leur insertion socio-économique. 
       </p>
       <p>
        Au titre de la 3ème phase de l’INDH, le programme d’accompagnement des personnes 
-en situation de précarité s’inscrit dans la continuité de la consolidation des réalisations 
-des phases précédentes en renforçant davantage l’élargissant les interventions réalisées 
-et les catégories cibles. (11 catégories concernées au lieu de 10). 
+       en situation de précarité s’inscrit dans la continuité de la consolidation des réalisations 
+       des phases précédentes en renforçant davantage l’élargissant les interventions réalisées 
+       et les catégories cibles. (11 catégories concernées au lieu de 10). 
       </p>
       <p>Il vise également l’amélioration de la qualité des services et prestations offerts et la 
         dissémination des bonnes pratiques à travers les actions suivantes: </p>
@@ -38,7 +42,7 @@ et les catégories cibles. (11 catégories concernées au lieu de 10).
       </ul>
       <p>Le programme cible 11 catégories de personnes en situation de précarité et catégorisé 
         selon les axes d’intervention suivants : </p>
-      <p><strong>- Assistance aux personnes âgées, malades ou en situation de handicap :</strong> </p>  
+      <p><strong><SlPencil />Assistance aux personnes âgées, malades ou en situation de handicap :</strong> </p>  
       <ul>
         <li>Personnes âgées démunies ;  </li>
         <li>Personnes souffrant de handicap sans ressources ; </li>
@@ -46,14 +50,14 @@ et les catégories cibles. (11 catégories concernées au lieu de 10).
         <li>Malades hémodialysés sans ressources ;  </li>
         <li>Malades atteints du SIDA sans ressources ;  </li>
       </ul>
-      <p><strong> Appui à la réinsertion socio-économique : </strong> </p>  
+      <p><strong> <SlPencil /> Appui à la réinsertion socio-économique : </strong> </p>  
       <ul>
         <li>Femmes en situation de grande précarité ;   </li>
         <li>Ex-détenus sans ressources ;  </li>
         <li>Mendiants et vagabonds ;    </li>
         <li>Toxicomanes sans ressources ;   </li>
       </ul>
-      <p><strong> Protection de l’enfance et de la jeunesse :  </strong> </p>  
+      <p><strong><SlPencil /> Protection de l’enfance et de la jeunesse :  </strong> </p>  
       <ul>
         <li>Enfants abandonnés ;    </li>
         <li>Enfants des rues et jeunes sans abris.  </li>  
@@ -122,6 +126,7 @@ et les catégories cibles. (11 catégories concernées au lieu de 10).
         <li>Nombre de centres mis à niveau/créés ; </li>
         <li>Nombre d’actions préventives réalisées. </li>
        </ul>
+       <img src={assi} alt="" className= "mx-auto d-block " style={{  width: '60%'}} />
     </div>
   </div>
   
