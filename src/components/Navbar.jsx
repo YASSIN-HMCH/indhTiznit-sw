@@ -100,25 +100,6 @@ const Navbar = () => {
                 <li><NavLink className="dropdown-item" to="/prog3">Link 3</NavLink></li>
               </ul>
             </li>
-
-            <li className="nav-item dropdown">
-              <button
-                className="nav-link dropdown-toggle btn btn-link"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Programmes
-              </button>
-              <ul className="dropdown-menu">
-                <li><NavLink className="dropdown-item" to="/prog1">Link 1</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/prog2">Link 2</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/prog3">Link 3</NavLink></li>
-              </ul>
-            </li>
-
-            
-
           </ul>
         </div>
       </div>
