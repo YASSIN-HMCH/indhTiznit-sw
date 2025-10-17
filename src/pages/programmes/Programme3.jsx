@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaPen, FaMarker} from "react-icons/fa";
+
 
 const programme3 = () => {
   return (
@@ -90,89 +92,138 @@ const programme3 = () => {
               Par ailleurs, ces « Plateformes Jeunes » comportent plusieurs espaces et ateliers :  </p>
          </li>
         </ul>
+        <ol>
+        <li><FaPen className="text-success" /> <strong style={{color:"#17c071ff"}} >Espace d’écoute :</strong>
+        <p className='mt-3 '>Lieu où les jeunes sont reçus et écoutés pour mieux répondre à leurs besoins et leurs 
+         attentes en information, et partant assurer leur employabilité et leur accès à 
+         l’entreprenariat.   </p> </li>
+           <li><FaPen className="text-success" /><strong style={{color:"#17c071ff"}}>  Espace d’orientation :  </strong>
+           <p>Les jeunes sont reçus par des professionnels spécialisés dans leurs domaines d’activités, 
+          afin de les orienter vers des offres de formation adaptés à leur profil (OFPPT, ANAPEC) 
+          et aux opportunités correspondantes à leurs aspirations et leurs projets professionnels.   </p></li>
+        <li><FaPen className="text-success" /><strong style={{color:"#17c071ff"}}> Espace d’accompagnement :  </strong> 
+          <p>Vise à accompagner les jeunes dans leurs projets en organisant des ateliers d’aide à 
+          l’employabilité, de soutien à l’entrepreneuriat et d’appui à l’économie sociale et 
+          solidaire. </p>
+          <ul> 
+            <li> <strong style={{color:"#e92d0cff"}}>Aide à l’employabilité :</strong> </li>
+            <p>Vise à doter les jeunes diplômés en quête d’une première expérience, en outils 
+              permettant de réussir leur insertion dans le marché de l'emploi, à travers un 
+              accompagnement pointu, le renforcement de leurs compétences, notamment en matière 
+              de développement personnel et techniques de recherche d'emploi. </p>
+
+               <li> <strong style={{color:"#e92d0cff"}}>Soutien à l’entrepreneuriat  :</strong> </li>
+            <p>Permet d’assurer aux jeunes porteurs d'idées innovantes en entreprenariat, un contact 
+               avec des conseillers techniques, et un accès à des formations et un accompagnement pré 
+               et post création :  <ul><li>Phase pré-création : soutenir l'effort du jeune et l'outiller afin qu'il puisse monter 
+               son projet (plan d’affaires) et créer son entreprise (conseil juridique) ; </li>
+               <li></li>Phase post-création : permet au jeune d’être suivi et accompagné lors du 
+              démarrage et le développement de son activité.  </ul></p>
+
+              <li> <strong style={{color:"#e92d0cff"}}>Appui à l’économie sociale et solidaire : </strong> </li>
+            <p>Dédié aux coopératives et porteurs de projets émanant de l’analyse des chaines de 
+               valeurs, et permet le soutien à l’économie sociale et solidaire par l’accompagnement et 
+               l’assistance technique (aide à la création des coopératives, labélisation, certification 
+               qualité…).  </p>
+          </ul>
+          </li>
+        <li><FaPen className="text-success" /><strong style={{color:"#17c071ff"}}>  Espace Associatif : </strong>
+        <p>Réservé au développement des compétences des associations en vue de les appuyer dans 
+           le montage des projets et ce à travers, l’organisation des ateliers et des forums pour 
+           garantir le développement du tissu associatif local. </p>
+        </li>
+        </ol>
     </div>
   </div>
 
   <div class="card shadow-sm mb-4 border-0">
     <div class="card-body">
       <h3 class="text-success fw-bold">III. Modalités de Mise en Œuvre</h3>
-
-      <h5 class="fw-bold text-danger">Axe 1 : <span className='text-dark'> Soutien aux douars défavorisés en vertu du programme de réduction des 
-        disparités territoriales et sociales en milieu rural (volet INDH) : </span> </h5>
+      <p>L’approche adoptée pour la mise en œuvre de ce programme, s’articule autour des axes 
+       suivants: </p>
+      <h5 class="fw-bold text-danger">1. Partenariat et gestion de l’écosystème : </h5>
       <p>
-        L’effort entamé dans le cadre du programme PRDST au titre de la période 2017-2018 
-        doit être consolidé et poursuivi, afin d’honorer l’engagement de l’INDH au titre de la 
-        période 2019-2023.    
+       La mise en œuvre de ces « Plateformes Jeunes » s’appuiera sur un partenariat national 
+       axée principalement sur les associations, ainsi qu’un partenariat international autant sur 
+       le plan gouvernance que sur le plan financier. 
       </p>
-      <p>De même, les projets inscrits dans les plans régionaux de Réduction des Disparités 
-        Territoriales et Sociales, doivent être préparés selon une approche de convergence, de 
-        complémentarité et d’intégration. </p>
-     <p>Les projets validés doivent faire l’objet des études techniques nécessaires et doivent être 
-        saisis au niveau du système d’information (SI), pour procéder à la délégation des crédits 
-        y afférents. </p>   
-
-
-      <h5 class="fw-bold text-danger">Axe 2 : <span className='text-dark'> Soutien à l’accès aux infrastructures, aux équipements et aux services 
-sociaux de base dans les quartiers et centres ruraux sous-équipés : </span> </h5>
+      <h5 class="fw-bold text-danger">2. Ciblage   </h5>
       <p>
-       Cet axe vient en complément au premier axe ainsi que les autres programmes de la 3ème 
-       phase de l’INDH. <br />
-       Les projets éligibles doivent émaner des diagnostics participatifs et portent sur des 
-       actions d’accompagnement, qui permettent l’amélioration de l’accessibilité et les 
-       conditions d’impact et de pérennisation des structures réalisées dans les autres 
-       programmes. 
+      Ce programme ciblera les jeunes de 18 à 35 ans et tout porteur d’initiative innovante en 
+      faveur des jeunes.
       </p>
-    </div>
-  </div>
+      <h5 class="fw-bold text-danger">3. Gouvernance    </h5>
+      <p>
+       Le <strong>CLDH</strong>  prendra les mesures nécessaires pour sensibiliser, informer et orienter les 
+       jeunes vers les plateformes créées. 
+      </p>
+      <p>Le  <strong>CPDH</strong> sera chargé de : 
+        <ul><li> Préparer et aménager les espaces jeunes, et contractualiser avec les associations 
+         pour l’encadrement et l’animation des plateformes sur la base d’indicateurs de 
+         performance et de résultats.  </li>
+         <li>Mobiliser les moyens financiers nécessaires pour le fonctionnement des 
+         plateformes et le financement des projets et actions identifiés. </li>
+         <li>Faire appel à des organismes nationaux ou internationaux ou à des bureaux 
+         d’études pour la réalisation des études se rapportant à l’analyse des filières 
+         porteuses et la détermination des chaines de valeurs appropriées. </li>
+         <li>Conclure des partenariats avec les différents services déconcentrés pour l’appui 
+         à la réalisation des études filières et apporter le soutien technique nécessaire aux 
+         projets identifiés. </li>
+         </ul>
+        <strong>Les associations</strong>  sont sélectionnées sur la base de critères liés à l’organisation, la 
+         capacité de gestion financière et de suivi-évaluation.  
+         Elles seront appelées à apporter leur expertise en matière d’employabilité, 
+         d’entreprenariat et d’économie sociale et solidaire, à déployer les référentiels 
+         méthodologiques, les bonnes pratiques et à fédérer les acteurs du secteur privé, public 
+         et les associations locales.
+      </p>
+      <h5 class="fw-bold text-danger"> 4 . Financement </h5>
+      <p>
+       L’INDH assurera le fonctionnement des plateformes <strong> « espace jeunes »</strong> , la prise en 
+        charge des frais liés à la mobilisation des associations, le financement des projets et 
+         fonds d’amorçage ainsi que la mobilisation des fonds avec d’autres partenaires. <br /> 
+        L’enveloppe budgétaire allouée à ce programme s’élève à  <strong>4 milliards de dirhams</strong> , est 
+         répartie comme suit :
+          <ul>
+          <li><strong>40%</strong> à répartir par région, en tenant compte du nombre de provinces, préfectures 
+              et préfectures d’arrondissements ; </li>
+          <li><strong>60%</strong>  à affecter, par province, selon le nombre des jeunes (18-34 ans), </li>
+          </ul>
+      </p>
+      <h5 class="fw-bold text-danger"> 4 . Indicateurs :</h5>
+      <h5>Aspect Entreprenariat : </h5>
+      <ol>
+        <li> <FaMarker className='text-danger'/> Nombre de projets identifiés, et mis en œuvre, par province dans le cadre de 
+              l’approche filière et analyse de CDV ;</li>
+          <li> <FaMarker className='text-danger'/> Nombre de projets assistés pré et post création ; </li>
+          <li> <FaMarker className='text-danger'/> Nombre des emplois crées ;</li>
+          <li> <FaMarker className='text-danger'/> Taux de survie des projets crées.</li> 
+      </ol>
+       <h5>Aspects Employabilité : </h5>
+      <ol>
+        <li> <FaMarker className='text-danger'/> Nombre de jeunes identifiés ;</li>
+          <li> <FaMarker className='text-danger'/> Nombre de jeunes formés et assistés ;  </li>
+          <li> <FaMarker className='text-danger'/> Nombre de jeunes insérés ; </li>
+          <li><FaMarker className='text-danger'/> Nombre de jeunes ayant obtenus des contrats premiers embauches ;  </li> 
+          <li><FaMarker className='text-danger'/> Nombre de jeunes ayant obtenus des contrats à durée indéterminée. </li>
+      </ol>
+      <h5> Aspects système : </h5>
+      <ol>
+        <li><FaMarker className='text-danger'/> Nombre de plateformes mises en place pour les jeunes (au moins une par 
+             province)</li>
+          <li><FaMarker className='text-danger'/> Associations têtes de réseaux ayant gérer les plateformes jeunes et ont mis 
+             des programmes d’inclusion économique en faveur des jeunes. </li>
+          <li><FaMarker className='text-danger'/> Nombre de partenariats réalisés au niveau de chaque province avec les 
+              partenaires Institutionnels, ONG et secteur privé pour l’inclusion des 
+              jeunes ;  </li>
+          <li><FaMarker className='text-danger'/> Nombre des associations locales impliquées ; </li> 
+          <li><FaMarker className='text-danger'/> Effet de levier généré.</li>
+      </ol>
+     </div> 
+
+
 
   
-  <div class="card shadow-sm mb-4 border-0">
-    <div class="card-body">
-      <h3 class="text-success fw-bold">1. Financement</h3>
-      <p>
-        Le programme est doté d’un budget total de <strong>4 MMDH</strong> répartis comme suit :
-      </p>
-      <ul>
-        <li><strong>Axe 1 :</strong> 3 MMDH</li>
-        <li><strong>Axe 2 :</strong> 1 MMDH, est consacrée au financement de cet axe au titre de la période 
-            2020-2023.</li>
-      </ul>
-    </div>
-  </div>
-
-
-   <div className="card shadow-sm mb-5 border-0">
-      <div className="card-body">
-            <h3 className="text-success fw-bold">
-              2. Indicateurs de Résultats et de Performance
-            </h3>
-
-            <h5 className="fw-bold text-danger mt-3">Infrastructures de base</h5>
-            <ul>
-              <li>
-                <strong>Eau potable :</strong> Pourcentage des ménages ayant accès à
-                une source d’eau potable et raccordés au réseau.
-              </li>
-              <li>
-                <strong>Électricité :</strong> Pourcentage des ménages raccordés au
-                réseau électrique.
-              </li>
-              <li>
-                <strong>Réseau routier :</strong> Pourcentage des ménages ayant accès
-                à une route à moins de 1 km.
-              </li>
-            </ul>
-
-            <h5 className="fw-bold text-danger mt-3">Services sociaux de base</h5>
-            <ul>
-              <li>
-                <strong>Santé :</strong> Pourcentage de la population bénéficiaire.
-              </li>
-              <li>
-                <strong>Éducation :</strong> Pourcentage de la population bénéficiaire.
-              </li>
-            </ul>
-          </div>
     </div>
   
 </section>
