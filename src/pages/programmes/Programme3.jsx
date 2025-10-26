@@ -1,15 +1,28 @@
 import React from 'react'
-import {FaPen, FaMarker} from "react-icons/fa";
+import { FaMarker} from "react-icons/fa";
+import p3 from "../../photos/6-Programmes-3.jpg"
 
 
 const programme3 = () => {
   return (
     <>
       <section class="container my-5">
-  <div class="text-center mb-4">
-    <h1 class="fw-bold text-success">PROGRAMME 3 : « AMELIORATION DU REVENU ET INCLUSION 
-    ECONOMIQUE DES JEUNES »  </h1>
+  <div class="row align-items-center text-center text-md-start mb-4">
+    <div class="col-md-8">
+      <h1 class="fw-bold text-success">
+        <span className='text-danger'>Programme 3 :</span> « AMELIORATION DU REVENU ET INCLUSION 
+        ECONOMIQUE DES JEUNES » 
+      </h1>
+    </div>
+
+ 
+    <div class="col-md-4 text-center mt-3 mt-md-0">
+      <img src={p3} alt="Programme 1" class="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+    </div>
   </div>
+  
+
+
   <div class="card shadow-sm mb-4 border-0">
     <div class="card-body">
       <h3 class="text-success fw-bold">I. Contexte</h3>
@@ -93,15 +106,15 @@ const programme3 = () => {
          </li>
         </ul>
         <ol>
-        <li><FaPen className="text-success" /> <strong style={{color:"#17c071ff"}} >Espace d’écoute :</strong>
+        <li><FaMarker className="text-success" /> <strong style={{color:"#17c071ff"}} >Espace d’écoute :</strong>
         <p className='mt-3 '>Lieu où les jeunes sont reçus et écoutés pour mieux répondre à leurs besoins et leurs 
          attentes en information, et partant assurer leur employabilité et leur accès à 
          l’entreprenariat.   </p> </li>
-           <li><FaPen className="text-success" /><strong style={{color:"#17c071ff"}}>  Espace d’orientation :  </strong>
+           <li><FaMarker className="text-success" /><strong style={{color:"#17c071ff"}}>  Espace d’orientation :  </strong>
            <p>Les jeunes sont reçus par des professionnels spécialisés dans leurs domaines d’activités, 
           afin de les orienter vers des offres de formation adaptés à leur profil (OFPPT, ANAPEC) 
           et aux opportunités correspondantes à leurs aspirations et leurs projets professionnels.   </p></li>
-        <li><FaPen className="text-success" /><strong style={{color:"#17c071ff"}}> Espace d’accompagnement :  </strong> 
+        <li><FaMarker className="text-success" /><strong style={{color:"#17c071ff"}}> Espace d’accompagnement :  </strong> 
           <p>Vise à accompagner les jeunes dans leurs projets en organisant des ateliers d’aide à 
           l’employabilité, de soutien à l’entrepreneuriat et d’appui à l’économie sociale et 
           solidaire. </p>
@@ -127,7 +140,7 @@ const programme3 = () => {
                qualité…).  </p>
           </ul>
           </li>
-        <li><FaPen className="text-success" /><strong style={{color:"#17c071ff"}}>  Espace Associatif : </strong>
+        <li><FaMarker className="text-success" /><strong style={{color:"#17c071ff"}}>  Espace Associatif : </strong>
         <p>Réservé au développement des compétences des associations en vue de les appuyer dans 
            le montage des projets et ce à travers, l’organisation des ateliers et des forums pour 
            garantir le développement du tissu associatif local. </p>

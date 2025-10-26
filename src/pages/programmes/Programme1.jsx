@@ -1,14 +1,24 @@
 import React from 'react'
 import './Progr1.css';
 import inter from "../../photos/intervention.png"
+import p1 from "../../photos/6-Programmes-1.jpg"
 
 const programme1 = () => {
   return (
     <>
     <section class="container my-5">
-  <div class="text-center mb-4">
-    <h1 class="fw-bold text-success">Programme 1 : Rattrapage des Déficits en Infrastructures et Services Sociaux de Base</h1>
+  <div class="row align-items-center text-center text-md-start mb-4">
+    <div class="col-md-8">
+      <h1 class="fw-bold text-success">
+         <span className='text-danger'>Programme 1 :</span> Rattrapage des Déficits en Infrastructures et Services Sociaux de Base
+      </h1>
+    </div>
+    <div class="col-md-4 text-center mt-3 mt-md-0">
+      <img src={p1} alt="Programme 1" class="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+    </div>
   </div>
+
+  
   <div class="card shadow-sm mb-4 border-0">
     <div class="card-body">
       <h3 class="text-success fw-bold">I. Contexte</h3>

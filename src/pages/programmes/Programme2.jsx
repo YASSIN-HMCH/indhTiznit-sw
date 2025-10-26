@@ -1,6 +1,7 @@
 import React from 'react'
 import { SlPencil } from "react-icons/sl";
 import assi from "../../photos/assi.png";
+import p2 from "../../photos/6-Programmes-2.jpg"
   
 
 
@@ -8,10 +9,19 @@ const programme2 = () => {
   return (
     <>
      <section class="container my-5">
-  <div class="text-center mb-4">
-    <h1 class="fw-bold text-success">PROGRAMME 2 : ACCOMPAGNEMENT DES PERSONNES EN SITUATION         
-    DE PRECARITE </h1>
+  <div class="row align-items-center text-center text-md-start mb-4">
+    <div class="col-md-8">
+      <h1 class="fw-bold text-success">
+       <span className='text-danger'>Programme 2 :</span> ACCOMPAGNEMENT DES PERSONNES EN SITUATION         
+       DE PRECARITE 
+      </h1>
+    </div>
+    <div class="col-md-4 text-center mt-3 mt-md-0">
+      <img src={p2} alt="Programme 1" class="img-fluid rounded" style={{ maxWidth: "100%", height: "auto" }} />
+    </div>
   </div>
+  
+
   <div class="card shadow-sm mb-4 border-0">
     <div class="card-body">
       <h3 class="text-success fw-bold">I. Contexte</h3>
